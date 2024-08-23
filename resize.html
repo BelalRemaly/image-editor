@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1">
+            <h1>image Editor</h1>
+            <div class="img-box">
+                <img id="img">
+            </div>
+            <div class="upload">
+                <label for="upload">Upload</label>
+                <input type="file" id="upload">
+            </div>
+        </div>
+        <div class="div2">
+
+            <ul>
+                <li>100px * 100px</li>
+                <li>1080px * 1024px</li>
+                <li></li>
+                <li>
+                    <div class="buttoms">
+                        <span onclick="resetValue()">reset</span>
+                        <a href="#" id="resize" id="resize">resize</a>
+                        <a download="true" id="download">Download</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
